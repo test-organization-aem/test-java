@@ -14,6 +14,7 @@ public class DemoJavaApplication {
 		SpringApplication.run(DemoJavaApplication.class, args);
 	}
 
+	// Se agrega un comentario de prueba
 	@GetMapping("/hello")
 	public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
 		return String.format("Hello %s!", name);
