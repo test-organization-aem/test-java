@@ -15,6 +15,8 @@ on:
 jobs:
   build:
 
+    permissions:
+      id-token: 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
     runs-on: ubuntu-latest
 
     steps:
